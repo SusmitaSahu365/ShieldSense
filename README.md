@@ -26,7 +26,18 @@ ShieldSense runs a continuous background risk engine that scores three signal ch
 
 ## 📱 Demo Screenshots
 
-> _Run the app and use the scenario buttons at the bottom to simulate each state._
+![WhatsApp Image 2026-03-03 at 00 58 32](https://github.com/user-attachments/assets/b74f4183-6247-4427-8e9f-1af3e3eebd55)
+![WhatsApp Image 2026-03-03 at 00 58 33 (1)](https://github.com/user-attachments/assets/0c1fba05-1d39-47ab-a860-26951ae4b54f)
+![WhatsApp Image 2026-03-03 at 00 58 33](https://github.com/user-attachments/assets/dea29ad0-c62e-45fc-9b95-2d01d076235f)
+![WhatsApp Image 2026-03-03 at 00 58 34](https://github.com/user-attachments/assets/f0a1eb11-6a3c-43c3-bf99-7ca39fc839b0)
+![WhatsApp Image 2026-03-03 at 00 58 35 (1)](https://github.com/user-attachments/assets/88a9ddc7-1127-42ac-bb4f-657384e8ae8e)
+![Uploading WhatsApp Image 2026-03-03 at 00.58.35 (2).jpeg…]()
+
+
+
+
+
+
 
 | Setup | Safe Monitoring | Elevated Risk | Emergency |
 |-------|----------------|---------------|-----------|
@@ -36,25 +47,8 @@ ShieldSense runs a continuous background risk engine that scores three signal ch
 
 ## 🔁 How It Works — System Flowchart
 
-```
-Start
-  └─► Baseline Setup (2s calibration)
-        └─► Start Monitoring
-              └─► [LOOP every 1.5s]
-                    ├─ Conversational Risk Analysis  (40% weight)
-                    ├─ Emotional Stress Detection    (40% weight)
-                    └─ Environmental Risk Assessment (20% weight)
-                          └─► Compute PSI Score (0–100)
-                                └─► Is Risk Escalating?
-                                      ├─ NO  → Continue Silent Monitoring
-                                      └─ YES →
-                                            ├─ Moderate (40–60) → ⚠️  Subtle Alert
-                                            │                         Vibration + Relocate suggestion
-                                            ├─ High     (60–80) → 🟠  Safety Prompt
-                                            │                         "Are you safe?" + Contact trusted person
-                                            └─ Critical (80–100) → 🚨  Emergency Intervention
-                                                                        Auto-alert contacts + Live location + Auto-call
-```
+![WhatsApp Image 2026-03-02 at 23 15 19](https://github.com/user-attachments/assets/e5a09d1c-f17e-4408-80a6-8b5d9fb9c7d5)
+
 
 ---
 
